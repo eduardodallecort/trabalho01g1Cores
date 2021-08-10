@@ -1,17 +1,78 @@
-.square{
-  width: 12%;
-  height: 0;
-  padding-bottom: 12%;
-  margin: 1%;
-  float: left;
-  position: relative;
-  left: 46%;
+.App {
+  text-align: center;
+  
 }
 
-.block{
-  position: absolute;
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.square {
   text-align: center;
-  background: blue;
-  width: 100%;
-  height: 100%;
+  height: 10vh;
+  width: 5vw;
+  border: #282c34;
+  border-radius: 10%;
+  border-style: groove;
+}
+.square-float{
+  text-align: center;
+  height: 10vh;
+  width: 5vw;
+  margin: 5px;
+  border: #282c34;
+  border-radius: 10%;
+  border-style: groove;
+  float:left
+}
+
+.bottom{
+  padding-top: 250px;
+  text-align: center;
+}
+.bottom-less{
+  padding-top: 75px;
+  text-align: center;
+}
+.square-center{
+  padding-top: 20px;
+  padding-left: 650px;
+  padding-bottom: 20px;
+}
+.square-center-list{
+  padding-top: 150px;
+  padding-left: 500px;
+  padding-bottom: 20px;
 }
